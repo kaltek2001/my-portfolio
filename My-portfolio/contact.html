@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Engineering Portfolio</title>
+</head>
+<body>
+    <header style="background: #161c2d; color: white; padding: 1rem 2rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h1 style="margin: 0;">Engineering Portfolio</h1>
+            <nav>
+                <a href="home.html" style="color: white; margin-left: 20px; text-decoration: none;">Home</a>
+                <a href="projects.html" style="color: white; margin-left: 20px; text-decoration: none;">Projects</a>
+                <a href="contact.html" style="color: white; margin-left: 20px; text-decoration: none;">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main style="padding: 2rem; max-width: 800px; margin: 0 auto;">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for collaboration, questions, or opportunities.</p>
+
+        <!-- Contact Form -->
+        <div style="background: #f9f9f9; padding: 2rem; border-radius: 10px; margin: 2rem 0;">
+            <h3>Send a Message</h3>
+            <form style="display: grid; gap: 1rem;">
+                <div>
+                    <label for="name" style="display: block; margin-bottom: 5px;">Name</label>
+                    <input type="text" id="name" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                </div>
+
+                <div>
+                    <label for="email" style="display: block; margin-bottom: 5px;">Email</label>
+                    <input type="email" id="email" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                </div>
+
+                <div>
+                    <label for="subject" style="display: block; margin-bottom: 5px;">Subject</label>
+                    <input type="text" id="subject" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                </div>
+
+                <div>
+                    <label for="message" style="display: block; margin-bottom: 5px;">Message</label>
+                    <textarea id="message" rows="5" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;"></textarea>
+                </div>
+
+                <button type="submit" style="background: #4a6cf7; color: white; border: none; padding: 12px 24px; border-radius: 5px; cursor: pointer;">Send Message</button>
+            </form>
+
+            <p style="margin-top: 1rem; font-size: 0.9rem; color: #666;">
+                <em>Note: Form submission requires backend integration. For now, this is a visual template.</em>
+            </p>
+        </div>
+
+        <!-- Contact Information -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin: 3rem 0;">
+            <div>
+                <h3>Contact Information</h3>
+                <p>📧 your.email@example.com</p>
+                <p>📱 +1 (234) 567-8900</p>
+                <p>📍 City, Country</p>
+            </div>
+
+            <div>
+                <h3>Professional Profiles</h3>
+                <p>🔗 LinkedIn: linkedin.com/in/yourprofile</p>
+                <p>💼 GitHub: github.com/yourusername</p>
+                <p>🎨 Portfolio: yourportfolio.com</p>
+            </div>
+        </div>
+
+        <p><a href="home.html">← Back to Home</a></p>
+    </main>
+
+    <footer style="background: #161c2d; color: white; padding: 2rem; text-align: center;">
+        <p>Engineering Portfolio &copy; 2024 | <a href="home.html" style="color: white;">Home</a></p>
+    </footer>
+</body>
+</html>
