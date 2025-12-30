@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAD Gallery | Engineering Portfolio</title>
+</head>
+<body>
+    <header style="background: #161c2d; color: white; padding: 1rem 2rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h1 style="margin: 0;">Engineering Portfolio</h1>
+            <nav>
+                <a href="home.html" style="color: white; margin-left: 20px; text-decoration: none;">Home</a>
+                <a href="cadgallery.html" style="color: white; margin-left: 20px; text-decoration: none;">CAD Gallery</a>
+                <a href="contact.html" style="color: white; margin-left: 20px; text-decoration: none;">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main style="padding: 2rem;">
+        <h2>CAD Gallery - Interactive 3D Models</h2>
+        <p>This page features interactive 3D CAD models that visitors can rotate, zoom, and explore.</p>
+
+        <!-- 3D Viewer Area -->
+        <div style="background: #1a1a1a; padding: 2rem; border-radius: 10px; margin: 2rem 0;">
+            <h3 style="color: white;">Interactive 3D Viewer</h3>
+            <p style="color: #aaa;">This area will display interactive SolidWorks/3D models.</p>
+            <p style="color: #aaa;">Visitors can: Rotate (click & drag), Zoom (scroll wheel), Pan (right-click & drag)</p>
+
+            <div style="height: 500px; background: #333; display: flex; align-items: center; justify-content: center; color: #666; margin: 1rem 0; border-radius: 5px;">
+                <div style="text-align: center;">
+                    <p style="font-size: 1.5rem;">3D Model Viewer</p>
+                    <p>SolidWorks/GLTF models will appear here</p>
+                </div>
+            </div>
+
+            <div style="background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 5px;">
+                <p style="color: white; margin: 0;"><strong>Controls:</strong> Drag to rotate • Scroll to zoom • Right-click to pan</p>
+            </div>
+        </div>
+
+        <!-- CAD Model Thumbnails -->
+        <h3>CAD Model Collection</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+            <div style="border: 1px solid #ddd; border-radius: 5px; overflow: hidden;">
+                <div style="height: 150px; background: #f0f0f0; display: flex; align-items: center; justify-content: center;">
+                    <p>3D Model Preview</p>
+                </div>
+                <div style="padding: 1rem;">
+                    <h4>Assembly Model 1</h4>
+                    <p>Complete mechanical assembly</p>
+                </div>
+            </div>
+            <div style="border: 1px solid #ddd; border-radius: 5px; overflow: hidden;">
+                <div style="height: 150px; background: #f0f0f0; display: flex; align-items: center; justify-content: center;">
+                    <p>3D Model Preview</p>
+                </div>
+                <div style="padding: 1rem;">
+                    <h4>Product Design</h4>
+                    <p>Consumer product design</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- File Upload -->
+        <div style="background: #eef2ff; padding: 1.5rem; border-radius: 5px; margin: 2rem 0;">
+            <h3>Upload 3D Models</h3>
+            <p>Upload SolidWorks (.sldprt, .sldasm), STEP, IGES, or GLTF files for display in the 3D viewer.</p>
+            <p><em>Note: For web display, convert SolidWorks files to GLTF format.</em></p>
+        </div>
+
+        <p><a href="home.html">← Back to Home</a> | <a href="projects.html">View Projects →</a></p>
+    </main>
+
+    <footer style="background: #161c2d; color: white; padding: 2rem; text-align: center;">
+        <p>Engineering Portfolio &copy; 2024 | <a href="home.html" style="color: white;">Home</a></p>
+    </footer>
+</body>
+</html>
